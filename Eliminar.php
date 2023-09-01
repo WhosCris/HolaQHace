@@ -44,7 +44,7 @@
 
 <?php
 
-if($_POST['btnDel']=="Eliminar"){
+/**if($_POST['btnDel']=="Eliminar"){
 
     include("funciones.php");
     $cnn = Conectar();
@@ -54,7 +54,7 @@ if($_POST['btnDel']=="Eliminar"){
 
     mysqli_query($cnn,$sql);
     echo "<script>alert('Se ha eliminado al usuario con rut $rut')</script>";
-}
+}*/
 
     ?>
     </form>
